@@ -6,3 +6,5 @@ This run this application, you must first run the following commands in the back
 2. `docker compose up`
 
 The front end will now be viewable at `http://localhost:3000`
+
+To shutdown containers, run `docker compose down`
