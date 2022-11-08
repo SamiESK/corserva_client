@@ -1,0 +1,7 @@
+services: 
+  frontend:
+    container_name: frontend_container
+    image: frontend_image:0.0.4
+    build: .
+    ports:
+      - "3000:3000" 

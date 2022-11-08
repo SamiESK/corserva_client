@@ -34,5 +34,5 @@ const CreateSale = () => {
   )
 }
   
-// Export CreateStudent Component
+// Export CreateSale Component
 export default CreateSale;

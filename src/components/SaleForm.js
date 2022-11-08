@@ -47,7 +47,7 @@ const SaleForm = (props) => {
             />
           </FormGroup>
           <br></br>
-          <Button callName = "submit-btn" size="lg" 
+          <Button callname = "submit-btn" size="lg" 
             block="block" type="submit">
             {props.children}
           </Button>
