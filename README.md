@@ -1,4 +1,4 @@
-This repository houses the client side services of Corserva's PERN challenge application
+This repository houses the client side services of Corserva's PERN challenge application.
 
 This run this application, run the following commands in the terminal.
 
