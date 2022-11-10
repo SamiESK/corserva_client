@@ -25,7 +25,7 @@ const App = () => (
                     <Container>
                         <Navbar.Brand>
                             <Link to="/CreateSale" className="nav-link">
-                                Corserva PERNN Stack App
+                                Corserva PERN Stack App
                             </Link>
                         </Navbar.Brand>
 
