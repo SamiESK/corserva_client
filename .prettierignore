@@ -1,0 +1,6 @@
+# ingore node_modules and bower_components
+
+node_modules
+index.html
+index.js
+reportWebVitals.js

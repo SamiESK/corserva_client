@@ -18,62 +18,49 @@ import SaleList from './components/SalesList.component';
 
 // App Component
 const App = () => (
-    <Router>
-        <div className="App">
-            <header className="App-header">
-                <Navbar bg="dark" variant="dark">
-                    <Container>
-                        <Navbar.Brand>
-                            <Link to="/CreateSale" className="nav-link">
-                                Corserva PERN Stack App
-                            </Link>
-                        </Navbar.Brand>
+  <Router>
+    <div className="App">
+      <header className="App-header">
+        <Navbar bg="dark" variant="dark">
+          <Container>
+            <Navbar.Brand>
+              <Link to="/CreateSale" className="nav-link">
+                Corserva PERN Stack App
+              </Link>
+            </Navbar.Brand>
 
-                        <Nav className="justify-content-end">
-                            <Nav>
-                                <Link to="/CreateSale" className="nav-link">
-                                    Create Sales
-                                </Link>
-                            </Nav>
+            <Nav className="justify-content-end">
+              <Nav>
+                <Link to="/CreateSale" className="nav-link">
+                  Create Sales
+                </Link>
+              </Nav>
 
-                            <Nav>
-                                <Link to="/SalesList" className="nav-link">
-                                    Sales List
-                                </Link>
-                            </Nav>
-                        </Nav>
-                    </Container>
-                </Navbar>
-            </header>
-            <Container>
-                <Row>
-                    <Col md={12}>
-                        <div className="wrapper">
-                            <Routes>
-                                <Route
-                                    exact
-                                    path="/"
-                                    element={<CreateSale />}
-                                />
-                                <Route
-                                    path="/CreateSale"
-                                    element={<CreateSale />}
-                                />
-                                <Route
-                                    path="/EditSale/:uuid"
-                                    element={<EditSale />}
-                                />
-                                <Route
-                                    path="/SalesList"
-                                    element={<SaleList />}
-                                />
-                            </Routes>
-                        </div>
-                    </Col>
-                </Row>
-            </Container>
-        </div>
-    </Router>
+              <Nav>
+                <Link to="/SalesList" className="nav-link">
+                  Sales List
+                </Link>
+              </Nav>
+            </Nav>
+          </Container>
+        </Navbar>
+      </header>
+      <Container>
+        <Row>
+          <Col md={12}>
+            <div className="wrapper">
+              <Routes>
+                <Route exact path="/" element={<CreateSale />} />
+                <Route path="/CreateSale" element={<CreateSale />} />
+                <Route path="/EditSale/:uuid" element={<EditSale />} />
+                <Route path="/SalesList" element={<SaleList />} />
+              </Routes>
+            </div>
+          </Col>
+        </Row>
+      </Container>
+    </div>
+  </Router>
 );
 
 export default App;

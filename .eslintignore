@@ -1,2 +1,7 @@
 !.*
 **/node_modules/*
+**/public/*
+**/src/components/SaleForm.js
+**/src/components/SaleTableRow.component.js
+**/src/components/CreateSale.component.js
+**/src/components/EditSale.component.js

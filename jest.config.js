@@ -1,6 +1,4 @@
 /** @returns {Promise<import('jest').Config>} */
-export default async () => {
-    return {
-      verbose: true,
-    };
-  };
+export default async () => ({
+  verbose: true,
+});
